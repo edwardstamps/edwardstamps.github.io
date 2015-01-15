@@ -24,7 +24,7 @@ var bio = {
 		"location": "New York"
 		},
 	"biopic": "images/edw.jpg",
-	"welcomemessage" : "Howdy, Thanks for Stoppin By!",
+	"welcomemessage" : "Howdy, & Thanks for Stoppin By!",
 	"skills" : skills
 	
 }
@@ -60,14 +60,25 @@ var work = {
 			"title" : "Account Executive",
 			"location": "San Francisco, CA",
 			"dates": "2013",
-			"description": "Selling SAAS"
+			"description": "- - Build relationships through initial cold outreach (prospecting)
+- Develop an understanding of the party's sales process to determine needs/solutions
+- Initiate trial's of the ClearSlide solution and determine metrics in judging success
+- Determine all relevant parties and complete contract negotiations when appropriate.
+
+111% of Quota - July & September 2013
+102% of Quota - November 2013"
 		},
 		{
 			"employer": "FXCM",
 			"title": "FX Sales",
 			"location": "San Francisco, CA",
 			"dates":"2012",
-			"description": "Selling access to FX Markets"
+			"description": "•	Responsible for selling the FXCM trading station software and firm’s advantage.
+•	Introduction of market operations and trading solutions to traders of all experience levels.
+•	Performed product demonstrations of training software.
+•	Generated business via outbound or inbound calls. Exceeded goals (clients and deposits) each quarter.
+
+#1 in new clients (83) at 122% of Quota - Q3 2012 Global English language sales team"
 		}
 	]
 }
