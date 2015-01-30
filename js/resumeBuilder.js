@@ -2,7 +2,7 @@
 var name = "Edward Stamps";
 var formattedName = HTMLheaderName.replace("%data%", name);
 
-var role = "iOS Developer & SAAS Sales Professional"
+var role = "Front-End iOS Developer & SAAS Sales Professional"
 
 var formattedRole = HTMLheaderRole.replace("%data%", role)
 
@@ -11,7 +11,7 @@ $("#header").prepend(formattedRole);
 $("#header").prepend(formattedName);
 
 var skills = 
-["iOS Development", "Capital Markets", "Sales", "Marketing"];
+["iOS & Web Development", "Capital Markets", "Sales", "Marketing"];
 
 var bio = {
 	"name" : "Edward Stamps",
