@@ -23,7 +23,7 @@ h1 {
 h2 {
   font-weight: bold;
   font-size: 24px;
-  color: #999999;
+  color: #D80000;
   line-height: 29px;
   padding: 10px;
 }
@@ -92,11 +92,11 @@ a {
 }
 
 .orange {
-  background-color: #F5AE23;
+  background-color: #F3F3F3;
 }
 
 .orange-text {
-  color: #D80000 ;
+  color: #F3F3F3;
 }
 
 .white-text {
@@ -116,7 +116,7 @@ a {
 
 /* TODO: Replace with image later */
 #header {
-  background-image: url("http://edwardstamps.github.io/images/glencan.jpg");
+  background-image: url("http://edwardstamps.github.io/images/rockies.jpg");
   background-size: 100%;
 
 }

@@ -11,7 +11,7 @@ $("#header").prepend(formattedRole);
 $("#header").prepend(formattedName);
 
 var skills = 
-["Business Development", "iOS Development", "Capital Markets", "Sales"];
+["iOS Development", "Capital Markets", "Sales", "Marketing"];
 
 var bio = {
 	"name" : "Edward Stamps",
@@ -23,7 +23,7 @@ var bio = {
 		"github": "www.github.com",
 		"location": "New York"
 		},
-	"biopic": "images/edw.jpg",
+	"biopic": "images/edd.jpg",
 	"welcomemessage" : "Howdy, & Thanks for Stoppin By!",
 	"skills" : skills
 	
@@ -100,14 +100,20 @@ var education = {
 var projects = {
 	"projects": [
 		{
-			"title" : "Pitch Perfect",
+			"title" : "Frogger-Inspired Arcade Game",
+			"dates": "January 2015",
+			"description": "For Completion of Object Oriented Java-Script & HTML5 courses",
+			"url": "www.github.com"
+		},
+		{
+			"title" : "Pitch Perfect Recording App",
 			"dates": "January 2015",
 			"description": "For Completion of iOS introduction course",
 			"url": "www.github.com"
 		},
 		{
-			"title" : "UofA",
-			"dates": "January 2015",
+			"title" : "UofA Fight Song App",
+			"dates": "December 2014",
 			"description": "For Fun & Bear Down",
 			"url": "www.github.com"
 		}
