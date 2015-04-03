@@ -10,13 +10,13 @@ var formattedRole = HTMLheaderRole.replace("%data%", role)
 $("#header").prepend(formattedRole);
 $("#header").prepend(formattedName);
 
-var skills = 
+var skills =
 ["iOS & Web Development", "Capital Markets", "Sales", "Marketing"];
 
 var bio = {
 	"name" : "Edward Stamps",
 	"role" : "iOS Developer & SAAS Sales Professional",
-	"contacts" : 
+	"contacts" :
 		{
 		"mobile": "602-571-5623",
 		"email": "williamedwardstamps@yahoo.com",
@@ -26,7 +26,7 @@ var bio = {
 	"biopic": "images/edd.jpg",
 	"welcomemessage" : "Howdy, & Thanks for Stoppin By!",
 	"skills" : skills
-	
+
 }
 
 bio.location="New York";
@@ -74,7 +74,7 @@ var work = {
 
 var education = {
 	"schools" : [
-		{ 
+		{
 			"name": "The University of Arizona",
 			"location": "Tucson, AZ",
 			"degree": "Bachelor of Business Administration",
@@ -100,6 +100,12 @@ var education = {
 var projects = {
 	"projects": [
 		{
+			"title" : "Memer: Meme Generating App",
+			"dates": "March 2015",
+			"description": "For Completion of UIKit Fundamentals course",
+			"url": "https://github.com/edwardstamps/ProjectMemeMe"
+		},
+		{
 			"title" : "Frogger-Inspired Arcade Game",
 			"dates": "January 2015",
 			"description": "For Completion of Object Oriented Java-Script & HTML5 courses",
@@ -108,7 +114,7 @@ var projects = {
 		{
 			"title" : "Pitch Perfect Recording App",
 			"dates": "January 2015",
-			"description": "For Completion of iOS introduction course",
+			"description": "For Completion of iOS Introduction Course",
 			"url": "www.github.com"
 		},
 		{
@@ -153,13 +159,13 @@ function displayEducation(){
 	for (online in education.online) {
 		$("#education").append(HTMLschoolStart);
 		$(".education-entry:last").append(HTMLonlineClasses);
-		
 
-		
+
+
 
 
 		if (education.online[online].Classes.length>0){
-			
+
 			var formattedcourses1 = HTMLonlineTitle.replace("%data%", education.online[online].Classes[0]);
 			$(".education-entry:last").append(formattedcourses1);
 			formattedcourses = HTMLonlineTitle.replace("%data%", education.online[online].Classes[1]);
@@ -198,12 +204,12 @@ function displayWork(){
 
 		var formattedDescription = HTMLworkDescription.replace("%data%", work.jobs[job].description);
 		$(".work-entry:last").append(formattedDescription);
-	}	
+	}
 }
 
 displayWork();
 
-$(document).click(function(loc) { 
+$(document).click(function(loc) {
 	var x = loc.pageX;
 	var y = loc.pageY;
 
@@ -240,7 +246,7 @@ projects.display = function() {
 		//	}
 		//}
 	}
-	
+
 }
 
 projects.display();
